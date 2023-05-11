@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Credits</li>
+                    <li>Contact</li>
+                </ul>
+                <img src="https://www.hotelbooqi.com/wp-content/uploads/2021/12/128-1280406_view-user-icon-png-user-circle-icon-png-300x300.png" class="user-pic" onclick="toggleMenu()">
+
+                <div class="sub-usermenu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="https://www.hotelbooqi.com/wp-content/uploads/2021/12/128-1280406_view-user-icon-png-user-circle-icon-png-300x300.png" >
+                            <h2>Rabby</h2>
+                        </div>
+                        <hr>
+
+                        <a href="#" class="sub-menu-link">
+                            <img src="profile.png">
+                            <p>Edit profile</p>
+                            <span>></span>
+                        </a>
+
+                        <a href="#" class="sub-menu-link">
+                            <img src="setting.png">
+                            <p>Profile Settings</p>
+                            <span>></span>
+                        </a>
+
+                        <a href="#" class="sub-menu-link">
+                            <img src="help.png">
+                            <p>Help</p>
+                            <span>></span>
+                        </a>
+
+                        <a href="/index.html" class="sub-menu-link">
+                            <img src="logout.png">
+                            <p>Cerrar Sesion</p>
+                            <span>></span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        
+        <div class="conten">
+            <h1><i class="fa-brands fa-youtube"></i> Mis Videos fav de internet</h1>
+            <p>Aquí encontrarás una lista de mis videos favoritos. Notese que no tenia idea de que hacer aquí<div class=""></div></p>
+            <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@HolaSoyGerman">TODOS</a>
+        </div>
+        
+        <div class="grupo">
+            <h1 class="title1"><i class="fa-brands fa-js-square"></i></h1>
+            <div class="contvideos">   
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UaMBtjxvuMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>                                         
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mSjv8bjmKgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/avIiGbLc3_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>                
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RFEiaoA7FRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/y74wzcXBv4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sodXf4sPT08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nq5Fg6tIBKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>  
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QoQQBeYG5UM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                           
+            </div>
+
+        </div>
+
+        <div class="texto-final">
+            <h2 class="titulo-final"> Social media</h2>
+            <h4>Sorido considere el trabajo</h4>
+        </div>
+        
+
+        <br>
+        <div class="final"> 
+        
+            <a href="https://www.instagram.com/rabby_028/" class="insta">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/800px-Instagram-Icon.png">
+            </a>
+
+            <a href="https://www.facebook.com/Rabbyuwu/" class="face">
+                <img src="https://www.facebook.com/images/fb_icon_325x325.png">
+            </a>
+
+            <a href= "https://wa.me/qr/2FWN3ROTT7OAO1" class="whatsapp">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png">
+            </a>
+        </div>
+    </div>
+
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu")
+        }
+    </script>
+
+    
+</body>
+</html>
